@@ -5,14 +5,9 @@ export const metadata: Metadata = {
   title: "PitBoss HQ — Software for Casino Party Operators",
   description:
     "The all-in-one booking, staffing, and operations platform built specifically for casino party operators. Replace your spreadsheets with one powerful system.",
-  keywords: [
-    "casino party software",
-    "casino party booking",
-    "fun casino hire software",
-    "event staffing software",
-    "casino party operators",
-    "NACPO",
-  ],
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "PitBoss HQ — Software for Casino Party Operators",
     description:
@@ -20,6 +15,21 @@ export const metadata: Metadata = {
     url: "https://pittbosshq.com",
     siteName: "PitBoss HQ",
     type: "website",
+    images: [
+      {
+        url: "https://www.pittbosshq.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "PitBoss HQ — Software for Casino Party Operators",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PitBoss HQ — Software for Casino Party Operators",
+    description:
+      "The all-in-one booking, staffing, and operations platform built specifically for casino party operators.",
+    images: ["https://www.pittbosshq.com/og-image.png"],
   },
 };
 
