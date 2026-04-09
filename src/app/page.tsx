@@ -1,7 +1,7 @@
 import { Calendar, Users, FileText, DollarSign, Truck, ClipboardCheck, Check, ArrowRight, Zap, Clock, Shield, Star, BarChart3, Mail, MessageSquare } from "lucide-react";
 import Image from "next/image";
 
-const DEMO_URL = "https://eventually-one.vercel.app/demo?brand=pitboss";
+const DEMO_URL = "https://app.pittbosshq.com/demo?brand=pitboss";
 
 function Logo({ size = "default" }: { size?: "small" | "default" }) {
   const spadeW = size === "small" ? 16 : 28;
