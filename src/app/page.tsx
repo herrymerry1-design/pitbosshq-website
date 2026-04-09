@@ -114,7 +114,7 @@ export default function Home() {
           <a href="#showcase" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Tour</a>
           <a href="#pricing" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Pricing</a>
           <a href="#faq" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">FAQ</a>
-          <a href={DEMO_URL} className="bg-[#e53e3e] hover:bg-[#c53030] text-white px-5 py-2 rounded-md font-semibold text-xs tracking-[1px] transition-colors">TRY DEMO</a>
+          <a href="https://app.pittbosshq.com/login" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Sign In</a><a href={DEMO_URL} className="bg-[#e53e3e] hover:bg-[#c53030] text-white px-5 py-2 rounded-md font-semibold text-xs tracking-[1px] transition-colors">TRY DEMO</a>
         </div>
       </nav>
 
