@@ -249,26 +249,24 @@ export default function Home() {
               </div>
               <div className="md:w-[55%]">
                 {item.dark ? (
-                  <div className="relative h-[380px] rounded-xl overflow-hidden">
+                  <div className="rounded-xl overflow-hidden">
                     <Image
                       src={item.image}
                       alt={item.alt}
                       width={1200}
                       height={800}
-                      className="w-full h-auto absolute top-0 left-0"
-                      style={{ marginTop: `-${item.cropTop}` }}
+                      className="w-full h-auto"
                     />
                   </div>
                 ) : (
                   <div className="bg-[#111] rounded-xl p-4 shadow-2xl shadow-black/40 border border-white/[0.06]">
-                    <div className="relative h-[360px] rounded-lg overflow-hidden">
+                    <div className="rounded-lg overflow-hidden">
                       <Image
                         src={item.image}
                         alt={item.alt}
                         width={1200}
                         height={800}
-                        className="w-full h-auto absolute top-0 left-0"
-                        style={{ marginTop: `-${item.cropTop}` }}
+                        className="w-full h-auto"
                       />
                     </div>
                   </div>
