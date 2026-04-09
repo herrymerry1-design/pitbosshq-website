@@ -133,6 +133,7 @@ export default function Home() {
           <a href="#showcase" className="bg-white/[0.06] border border-white/10 text-white/70 hover:text-white hover:border-white/20 px-8 py-3.5 rounded-lg font-medium text-sm transition-colors">Take the tour</a>
         </div>
         <p className="text-xs text-white/25">No sign-up. No credit card. Full access in 10 seconds.</p>
+        <p className="text-xs text-white/20 mt-1">Demo best experienced on desktop or tablet.</p>
       </section>
 
       <section className="max-w-[1000px] mx-auto mt-8 mb-20 px-6">
