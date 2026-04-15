@@ -1,5 +1,6 @@
 import { Calendar, Users, FileText, DollarSign, Truck, ClipboardCheck, Check, ArrowRight, Zap, Clock, Shield, Star, BarChart3, Mail, MessageSquare } from "lucide-react";
 import Image from "next/image";
+import ImageLightbox from "@/components/ImageLightbox";
 
 const DEMO_URL = "https://app.pittbosshq.com/demo?brand=pitboss";
 
@@ -101,7 +102,7 @@ const faqs = [
   { q: "Can my staff see their schedules?", a: "Yes. The Staff Portal gives each dealer a login to view their upcoming jobs, mark availability, and access their delivery sheets and job details. No more group texts." },
   { q: "Do I need to install anything?", a: "No. PitBoss HQ runs entirely in your browser. Access it from your desktop, tablet, or phone. Nothing to download, nothing to update." },
   { q: "Is my data safe and private?", a: "Absolutely. Every account is completely isolated — your data is yours alone and no other operator can see it. Everything is stored securely on enterprise-grade infrastructure with automatic backups. We take data privacy seriously." },
-  { q: "How is this different from generic booking software?", a: "Generic tools make you bend your workflow to fit their system. PitBoss HQ was built by casino party operators who understand multi-table setups, casual staff management, regional pricing, and the unique logistics of event entertainment. Every feature exists because it was needed on a real job." },
+  { q: "How is this different from generic booking software?", a: "Generic tools make you bend your workflow to fit their system. PitBoss HQ was built by casino party operators who spent years running events and managing dealers with duct-taped tools. Every feature exists because it was needed on real jobs — not dreamed up in a conference room." },
 ];
 
 export default function Home() {
@@ -251,7 +252,7 @@ export default function Home() {
               <div className="md:w-[55%]">
                 {item.dark ? (
                   <div className="rounded-xl overflow-hidden">
-                    <Image
+                    <ImageLightbox
                       src={item.image}
                       alt={item.alt}
                       width={1200}
@@ -262,7 +263,7 @@ export default function Home() {
                 ) : (
                   <div className="bg-[#111] rounded-xl p-4 shadow-2xl shadow-black/40 border border-white/[0.06]">
                     <div className="rounded-lg overflow-hidden">
-                      <Image
+                      <ImageLightbox
                         src={item.image}
                         alt={item.alt}
                         width={1200}
