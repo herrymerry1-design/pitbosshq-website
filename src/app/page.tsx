@@ -305,7 +305,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-[700px] mx-auto">
           <div className="bg-[#111] border border-white/[0.06] rounded-xl p-8 text-left">
             <p className="text-xs text-white/40 tracking-[2px] mb-3">STARTER</p>
-            <p className="text-5xl font-black mb-1">$99<span className="text-base font-normal text-white/30">/mo</span></p>
+            <p className="text-5xl font-black mb-1">$179<span className="text-base font-normal text-white/30">/mo</span></p>
             <p className="text-sm text-white/35 mb-6">For solo operators and small teams</p>
             <ul className="space-y-3 mb-8">
               {starterFeatures.map((f) => (
