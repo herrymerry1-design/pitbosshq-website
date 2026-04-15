@@ -305,7 +305,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-[700px] mx-auto">
           <div className="bg-[#111] border border-white/[0.06] rounded-xl p-8 text-left">
             <p className="text-xs text-white/40 tracking-[2px] mb-3">STARTER</p>
-            <p className="text-5xl font-black mb-1">$179<span className="text-base font-normal text-white/30">/mo</span></p>
+            <p className="text-5xl font-black mb-1">$129<span className="text-base font-normal text-white/30">/mo</span></p>
             <p className="text-sm text-white/35 mb-6">For solo operators and small teams</p>
             <ul className="space-y-3 mb-8">
               {starterFeatures.map((f) => (
@@ -319,7 +319,7 @@ export default function Home() {
           <div className="bg-[#111] border-2 border-[#e53e3e] rounded-xl p-8 text-left relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e53e3e] text-white text-[10px] px-3 py-1 rounded-full font-bold tracking-[1px]">MOST POPULAR</div>
             <p className="text-xs text-white/40 tracking-[2px] mb-3">BUSINESS</p>
-            <p className="text-5xl font-black mb-1">$149<span className="text-base font-normal text-white/30">/mo</span></p>
+            <p className="text-5xl font-black mb-1">$179<span className="text-base font-normal text-white/30">/mo</span></p>
             <p className="text-sm text-white/35 mb-6">For growing companies with multiple jobs</p>
             <ul className="space-y-3 mb-8">
               {businessFeatures.map((f) => (
