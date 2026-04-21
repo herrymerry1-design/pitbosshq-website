@@ -1,8 +1,12 @@
-import { Calendar, Users, FileText, DollarSign, Truck, ClipboardCheck, Check, ArrowRight, Zap, Clock, Shield, Star, BarChart3, Mail, MessageSquare } from "lucide-react";
+"use client";
+
+import { useState } from "react";
+import { Calendar, Users, FileText, DollarSign, Truck, ClipboardCheck, Check, ArrowRight, Zap, Clock, Shield, Star, BarChart3, Mail, MessageSquare, Menu, X } from "lucide-react";
 import Image from "next/image";
 import ImageLightbox from "@/components/ImageLightbox";
 
 const DEMO_URL = "https://app.pittbosshq.com/demo?brand=pitboss";
+const LOGIN_URL = "https://app.pittbosshq.com/admin/login";
 
 function Logo({ size = "default" }: { size?: "small" | "default" }) {
   const spadeW = size === "small" ? 16 : 28;
@@ -106,17 +110,42 @@ const faqs = [
 ];
 
 export default function Home() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const closeMenu = () => setMobileMenuOpen(false);
+
   return (
     <div className="min-h-screen">
-      <nav className="sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-md flex items-center justify-between px-6 md:px-8 py-4 border-b border-white/[0.06]">
-        <Logo />
-        <div className="flex items-center gap-6">
-          <a href="#features" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Features</a>
-          <a href="#showcase" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Tour</a>
-          <a href="#pricing" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Pricing</a>
-          <a href="#faq" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">FAQ</a>
-          <a href="https://app.pittbosshq.com/login" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Sign In</a><a href={DEMO_URL} className="bg-[#e53e3e] hover:bg-[#c53030] text-white px-5 py-2 rounded-md font-semibold text-xs tracking-[1px] transition-colors">TRY DEMO</a>
+      <nav className="sticky top-0 z-50 bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/[0.06]">
+        <div className="flex items-center justify-between px-6 md:px-8 py-4">
+          <Logo />
+          <div className="flex items-center gap-4 md:gap-6">
+            <a href="#features" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Features</a>
+            <a href="#showcase" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Tour</a>
+            <a href="#pricing" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Pricing</a>
+            <a href="#faq" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">FAQ</a>
+            <a href={LOGIN_URL} className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Sign In</a>
+            <a href={DEMO_URL} className="bg-[#e53e3e] hover:bg-[#c53030] text-white px-4 md:px-5 py-2 rounded-md font-semibold text-xs tracking-[1px] transition-colors">TRY DEMO</a>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden text-white/70 hover:text-white p-1 -mr-1"
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+            >
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-[#0a0a0a] border-t border-white/[0.06]">
+            <div className="flex flex-col px-6 py-2">
+              <a href="#features" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">Features</a>
+              <a href="#showcase" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">Tour</a>
+              <a href="#pricing" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">Pricing</a>
+              <a href="#faq" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">FAQ</a>
+              <a href={LOGIN_URL} onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3">Sign In</a>
+            </div>
+          </div>
+        )}
       </nav>
 
       <section className="text-center px-6 pt-20 md:pt-28 pb-8">
