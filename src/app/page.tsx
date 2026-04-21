@@ -6,7 +6,7 @@ import Image from "next/image";
 import ImageLightbox from "@/components/ImageLightbox";
 
 const DEMO_URL = "https://app.pittbosshq.com/demo?brand=pitboss";
-const LOGIN_URL = "https://app.pittbosshq.com/admin/login";
+const LOGIN_URL = "https://app.pittbosshq.com/login";
 
 function Logo({ size = "default" }: { size?: "small" | "default" }) {
   const spadeW = size === "small" ? 16 : 28;
