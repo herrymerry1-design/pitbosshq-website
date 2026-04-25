@@ -391,7 +391,9 @@ export default function Home() {
 
       <footer className="flex flex-col sm:flex-row items-center justify-between px-6 md:px-8 py-8 border-t border-white/[0.06] mt-10 gap-4">
         <Logo size="small" />
-        <div className="flex items-center gap-6 text-[11px] text-white/20">
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] text-white/20">
+          <a href="/terms" className="hover:text-white/40 transition-colors">Terms</a>
+          <a href="/privacy" className="hover:text-white/40 transition-colors">Privacy</a>
           <a href="mailto:hello@pittbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
           <span>&copy; 2026 PitBoss HQ. All rights reserved.</span>
         </div>
