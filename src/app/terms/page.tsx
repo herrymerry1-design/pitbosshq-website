@@ -77,7 +77,7 @@ export default function TermsPage() {
               for business use only and is not offered to consumers for personal, family, or household purposes.
             </p>
             <p>
-              You agree to notify us immediately at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a> if
+              You agree to notify us immediately at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a> if
               you become aware of any unauthorised access to your account.
             </p>
           </section>
@@ -85,7 +85,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-black text-white mb-4">3. Subscription Fees and Billing</h2>
             <p className="mb-4">
-              Access to the Service is provided on a subscription basis. Current pricing is published at pittbosshq.com/#pricing and is quoted in US dollars.
+              Access to the Service is provided on a subscription basis. Current pricing is published at pitbosshq.com/#pricing and is quoted in US dollars.
               Subscription fees are billed in advance on a monthly basis through our payment processor, Stripe, starting on the date you subscribe.
             </p>
             <p className="mb-4">
@@ -126,12 +126,12 @@ export default function TermsPage() {
               <li><strong className="text-white">Days 1&ndash;30 &mdash; Read-only grace period.</strong> You can log in, view all your data, and export it.
                 You cannot create new bookings or send invoices.</li>
               <li><strong className="text-white">Days 31&ndash;180 &mdash; Soft archive.</strong> Your account is locked and you cannot log in, but your data
-                remains in our systems. If you wish to reactivate your account during this period, contact us at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a>.</li>
+                remains in our systems. If you wish to reactivate your account during this period, contact us at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a>.</li>
               <li><strong className="text-white">Day 181 onward &mdash; Permanent deletion.</strong> Your account and all associated data are permanently deleted
                 from our live systems. Backups may retain data for a short additional period before being overwritten in the normal course of business.</li>
             </ul>
             <p>
-              You may request earlier deletion of your data at any time by emailing <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a>.
+              You may request earlier deletion of your data at any time by emailing <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a>.
               See our <Link href="/privacy" className="text-[#e53e3e] hover:underline">Privacy Policy</Link> for details on data subject rights under GDPR,
               CCPA, and similar laws.
             </p>
@@ -315,7 +315,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-black text-white mb-4">18. Contact</h2>
             <p>
-              Questions about these Terms? Email us at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a>.
+              Questions about these Terms? Email us at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a>.
             </p>
           </section>
         </div>
@@ -326,7 +326,7 @@ export default function TermsPage() {
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] text-white/20">
           <Link href="/terms" className="hover:text-white/40 transition-colors">Terms</Link>
           <Link href="/privacy" className="hover:text-white/40 transition-colors">Privacy</Link>
-          <a href="mailto:hello@pittbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
+          <a href="mailto:hello@pitbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
           <span>&copy; 2026 PitBoss HQ. All rights reserved.</span>
         </div>
       </footer>

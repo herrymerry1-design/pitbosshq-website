@@ -5,8 +5,8 @@ import { Calendar, Users, FileText, DollarSign, Truck, ClipboardCheck, Check, Ar
 import Image from "next/image";
 import ImageLightbox from "@/components/ImageLightbox";
 
-const DEMO_URL = "https://app.pittbosshq.com/demo?brand=pitboss";
-const LOGIN_URL = "https://app.pittbosshq.com/login";
+const DEMO_URL = "https://app.pitbosshq.com/demo?brand=pitboss";
+const LOGIN_URL = "https://app.pitbosshq.com/login";
 
 function Logo({ size = "default" }: { size?: "small" | "default" }) {
   const spadeW = size === "small" ? 16 : 28;
@@ -394,7 +394,7 @@ export default function Home() {
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] text-white/20">
           <a href="/terms" className="hover:text-white/40 transition-colors">Terms</a>
           <a href="/privacy" className="hover:text-white/40 transition-colors">Privacy</a>
-          <a href="mailto:hello@pittbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
+          <a href="mailto:hello@pitbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
           <span>&copy; 2026 PitBoss HQ. All rights reserved.</span>
         </div>
       </footer>

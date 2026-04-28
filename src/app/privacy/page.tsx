@@ -44,7 +44,7 @@ export default function PrivacyPage() {
             <p className="mb-4">
               This Privacy Policy explains how [LEGAL ENTITY NAME] (&ldquo;<strong className="text-white">PitBoss HQ</strong>,&rdquo; &ldquo;<strong className="text-white">we</strong>,&rdquo;
               &ldquo;<strong className="text-white">us</strong>,&rdquo; or &ldquo;<strong className="text-white">our</strong>&rdquo;) collects, uses, shares, and protects personal information
-              when you use the PitBoss HQ service (the &ldquo;<strong className="text-white">Service</strong>&rdquo;), visit pittbosshq.com, or otherwise interact with us.
+              when you use the PitBoss HQ service (the &ldquo;<strong className="text-white">Service</strong>&rdquo;), visit pitbosshq.com, or otherwise interact with us.
             </p>
             <p>
               This Policy works alongside our <Link href="/terms" className="text-[#e53e3e] hover:underline">Terms of Service</Link>. Capitalised terms not defined here have the meanings given in the Terms.
@@ -136,8 +136,8 @@ export default function PrivacyPage() {
               <li><strong className="text-white">Stripe, Inc.</strong> (United States) &mdash; payment processing. Stripe is a separate data controller for payment data. See Stripe&rsquo;s Privacy Policy at stripe.com/privacy.</li>
               <li><strong className="text-white">Email delivery providers</strong> &mdash; to send transactional emails such as account confirmations, billing receipts, and notifications.</li>
               <li><strong className="text-white">Image and content delivery providers</strong> &mdash; to host and deliver images uploaded to the Service.</li>
-              <li><strong className="text-white">Email mailbox providers</strong> &mdash; to receive and respond to your messages to hello@pittbosshq.com.</li>
-              <li><strong className="text-white">Domain registrars and DNS providers</strong> &mdash; to operate pittbosshq.com and related domains.</li>
+              <li><strong className="text-white">Email mailbox providers</strong> &mdash; to receive and respond to your messages to hello@pitbosshq.com.</li>
+              <li><strong className="text-white">Domain registrars and DNS providers</strong> &mdash; to operate pitbosshq.com and related domains.</li>
             </ul>
             <p className="mb-4">
               <strong className="text-white">Where data is stored.</strong> Our primary infrastructure and service providers are located in the United States. If you access the Service from outside the United States, your information will be transferred to and processed in the United States.
@@ -211,7 +211,7 @@ export default function PrivacyPage() {
               <strong className="text-white">California residents</strong> have additional rights under the California Consumer Privacy Act (CCPA) and CPRA, including the right to know what personal information we collect about you, the right to delete that information, the right to correct inaccuracies, and the right to opt out of any &ldquo;sale&rdquo; or &ldquo;sharing&rdquo; of personal information (we do not sell or share personal information for cross-context behavioural advertising).
             </p>
             <p>
-              To exercise any of these rights, email us at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a>.
+              To exercise any of these rights, email us at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a>.
               We may need to verify your identity before responding. We will respond within the timeframes required by applicable law (generally within 30 days).
               You will not be discriminated against for exercising your rights.
             </p>
@@ -233,7 +233,7 @@ export default function PrivacyPage() {
             <h2 className="text-xl font-black text-white mb-4">11. Children&rsquo;s Privacy</h2>
             <p>
               The Service is intended for business use only and is not directed to children. We do not knowingly collect personal information from anyone under
-              the age of 18. If you believe we have collected information from a child, please contact us at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a> and we will delete it.
+              the age of 18. If you believe we have collected information from a child, please contact us at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a> and we will delete it.
             </p>
           </section>
 
@@ -252,7 +252,7 @@ export default function PrivacyPage() {
             </ul>
             <p>
               These Terms together constitute a Data Processing Agreement (DPA) sufficient for most small-business use cases. If your business or jurisdiction
-              requires a separate signed DPA, contact us at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a>.
+              requires a separate signed DPA, contact us at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a>.
             </p>
           </section>
 
@@ -268,7 +268,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-xl font-black text-white mb-4">14. Contact Us</h2>
             <p>
-              Questions, requests, or concerns about this Privacy Policy or your personal information? Email us at <a href="mailto:hello@pittbosshq.com" className="text-[#e53e3e] hover:underline">hello@pittbosshq.com</a>.
+              Questions, requests, or concerns about this Privacy Policy or your personal information? Email us at <a href="mailto:hello@pitbosshq.com" className="text-[#e53e3e] hover:underline">hello@pitbosshq.com</a>.
               We aim to respond to all enquiries within 5 business days.
             </p>
           </section>
@@ -280,7 +280,7 @@ export default function PrivacyPage() {
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-[11px] text-white/20">
           <Link href="/terms" className="hover:text-white/40 transition-colors">Terms</Link>
           <Link href="/privacy" className="hover:text-white/40 transition-colors">Privacy</Link>
-          <a href="mailto:hello@pittbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
+          <a href="mailto:hello@pitbosshq.com" className="hover:text-white/40 transition-colors">Contact</a>
           <span>&copy; 2026 PitBoss HQ. All rights reserved.</span>
         </div>
       </footer>

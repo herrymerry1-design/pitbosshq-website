@@ -11,12 +11,12 @@ export const metadata: Metadata = {
     title: "PitBoss HQ — Software for Casino Party Operators",
     description:
       "The all-in-one booking, staffing, and operations platform built specifically for casino party operators.",
-    url: "https://pittbosshq.com",
+    url: "https://pitbosshq.com",
     siteName: "PitBoss HQ",
     type: "website",
     images: [
       {
-        url: "https://www.pittbosshq.com/og-image.png",
+        url: "https://www.pitbosshq.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "PitBoss HQ — Software for Casino Party Operators",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     title: "PitBoss HQ — Software for Casino Party Operators",
     description:
       "The all-in-one booking, staffing, and operations platform built specifically for casino party operators.",
-    images: ["https://www.pittbosshq.com/og-image.png"],
+    images: ["https://www.pitbosshq.com/og-image.png"],
   },
 };
 export default function RootLayout({
