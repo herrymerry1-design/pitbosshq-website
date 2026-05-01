@@ -344,7 +344,7 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <a href={DEMO_URL} className="block text-center bg-white/[0.06] border border-white/10 text-white/70 hover:text-white hover:border-white/20 py-3 rounded-lg font-medium text-sm transition-colors">Try demo</a>
+            <a href="https://app.pitbosshq.com/register?plan=starter" className="block text-center bg-white/[0.06] border border-white/10 text-white/70 hover:text-white hover:border-white/20 py-3 rounded-lg font-medium text-sm transition-colors">Get started</a>
           </div>
           <div className="bg-[#111] border-2 border-[#e53e3e] rounded-xl p-8 text-left relative">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e53e3e] text-white text-[10px] px-3 py-1 rounded-full font-bold tracking-[1px]">MOST POPULAR</div>
@@ -358,7 +358,7 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <a href={DEMO_URL} className="block text-center bg-[#e53e3e] hover:bg-[#c53030] text-white py-3 rounded-lg font-bold text-sm tracking-[0.5px] transition-colors">Try demo</a>
+            <a href="https://app.pitbosshq.com/register?plan=business" className="block text-center bg-[#e53e3e] hover:bg-[#c53030] text-white py-3 rounded-lg font-bold text-sm tracking-[0.5px] transition-colors">Get started</a>
           </div>
         </div>
       </section>
