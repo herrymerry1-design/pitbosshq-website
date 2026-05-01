@@ -331,7 +331,7 @@ export default function Home() {
       <section id="pricing" className="max-w-[900px] mx-auto px-6 py-20 border-t border-white/[0.04] text-center">
         <h2 className="text-3xl md:text-[40px] font-black mb-4">Simple, transparent pricing</h2>
         <p className="text-white/40 text-[16px] mb-4">No hidden fees. No contracts. Cancel anytime.</p>
-        <div className="inline-block bg-[#e53e3e]/10 border border-[#e53e3e]/20 rounded-full px-4 py-1.5 text-[11px] text-[#e53e3e] tracking-[2px] mb-12 font-medium">TAKE ADVANTAGE OF BETA PRICING</div>
+        <div className="inline-block bg-[#e53e3e]/10 border border-[#e53e3e]/20 rounded-full px-4 py-1.5 text-[11px] text-[#e53e3e] tracking-[2px] mb-12 font-medium">TAKE ADVANTAGE OF BETA RELEASE PRICING</div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-[700px] mx-auto">
           <div className="bg-[#111] border border-white/[0.06] rounded-xl p-8 text-left">
             <p className="text-xs text-white/40 tracking-[2px] mb-3">STARTER</p>
