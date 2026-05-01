@@ -98,7 +98,7 @@ const stats = [
 ];
 
 const starterFeatures = ["Unlimited bookings", "1 region", "Staff scheduling", "Invoicing and payments", "Delivery sheets", "Email support"];
-const businessFeatures = ["Everything in Starter", "Unlimited regions", "Reports and analytics", "Campaign emails", "Staff portal", "Supplier management", "Priority support"];
+const businessFeatures = ["Everything in Starter", "Unlimited regions", "Reports and analytics", "Campaign emails", "Dedicated staff portal", "Supplier management", "Priority support"];
 
 const faqs = [
   { q: "Is this only for casino party companies?", a: "PitBoss HQ is purpose-built for casino party operators, but the platform handles any multi-staff, multi-product event business. If you manage dealers, tables, and equipment across events, this was built for you." },
