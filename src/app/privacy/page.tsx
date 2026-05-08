@@ -36,13 +36,13 @@ export default function PrivacyPage() {
         <header className="mb-14 pb-10 border-b border-white/[0.06]">
           <p className="text-[11px] text-[#e53e3e] tracking-[2px] font-medium mb-4">LEGAL</p>
           <h1 className="text-4xl md:text-[48px] font-black leading-[1.08] mb-6">Privacy Policy</h1>
-          <p className="text-sm text-white/40">Last updated: 24 April 2026</p>
+          <p className="text-sm text-white/40">Last updated: 9 May 2026</p>
         </header>
 
         <div className="space-y-12 text-[15px] leading-relaxed text-white/70">
           <section>
             <p className="mb-4">
-              This Privacy Policy explains how [LEGAL ENTITY NAME] (&ldquo;<strong className="text-white">PitBoss HQ</strong>,&rdquo; &ldquo;<strong className="text-white">we</strong>,&rdquo;
+              This Privacy Policy explains how ShowStream Software LLC (&ldquo;<strong className="text-white">PitBoss HQ</strong>,&rdquo; &ldquo;<strong className="text-white">we</strong>,&rdquo;
               &ldquo;<strong className="text-white">us</strong>,&rdquo; or &ldquo;<strong className="text-white">our</strong>&rdquo;) collects, uses, shares, and protects personal information
               when you use the PitBoss HQ service (the &ldquo;<strong className="text-white">Service</strong>&rdquo;), visit pitbosshq.com, or otherwise interact with us.
             </p>
