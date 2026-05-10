@@ -33,7 +33,7 @@ const features = [
   { icon: FileText, title: "Invoicing", desc: "Professional invoices generated automatically from booking data. Email with one click. Track payments in real time." },
   { icon: DollarSign, title: "Payment tracking", desc: "See who owes what at a glance. Record deposits, part-payments, and mark bookings as fully paid." },
   { icon: Truck, title: "Delivery sheets", desc: "Professional delivery sheets with equipment checklists, travel times, venue details, and setup instructions." },
-  { icon: ClipboardCheck, title: "Subcontractor management", desc: "Resell third-party services: photobooths, DJs, marquees as part of your package. Track costs vs sale price and capture margin on every job." },
+  { icon: ClipboardCheck, title: "Subcontractor management", desc: "Resell third-party services: DJs, photobooths,  marquees as part of your package. Track costs vs sale price and capture margin on every job." },
   { icon: BarChart3, title: "Reports and analytics", desc: "Revenue breakdowns, staff costs, profit margins, supplier spend, and customer insights. Eleven report tabs covering every angle of your business." },
   { icon: Mail, title: "Campaign emails", desc: "Send targeted bulk emails to your customer base. Filter by region, event type, or booking history. Built-in wizard with preview, scheduling, and tracking." },
   { icon: MessageSquare, title: "Customer surveys", desc: "Automated post-event feedback surveys sent to customers after each booking. Track responses and ratings to keep improving your service." },
