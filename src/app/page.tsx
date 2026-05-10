@@ -7,6 +7,7 @@ import ImageLightbox from "@/components/ImageLightbox";
 
 const DEMO_URL = "https://app.pitbosshq.com/demo?brand=pitboss";
 const LOGIN_URL = "https://app.pitbosshq.com/login";
+const REGISTER_URL = "https://app.pitbosshq.com/register";
 
 function Logo({ size = "default" }: { size?: "small" | "default" }) {
   const spadeW = size === "small" ? 16 : 28;
@@ -33,7 +34,7 @@ const features = [
   { icon: FileText, title: "Invoicing", desc: "Professional invoices generated automatically from booking data. Email with one click. Track payments in real time." },
   { icon: DollarSign, title: "Payment tracking", desc: "See who owes what at a glance. Record deposits, part-payments, and mark bookings as fully paid." },
   { icon: Truck, title: "Delivery sheets", desc: "Professional delivery sheets with equipment checklists, travel times, venue details, and setup instructions." },
-  { icon: ClipboardCheck, title: "Subcontractor management", desc: "Resell third-party services: DJs, photobooths,  marquees as part of your package. Track costs vs sale price and capture margin on every job." },
+  { icon: ClipboardCheck, title: "Subcontractor management", desc: "Resell third-party services — photobooths, DJs, marquees — as part of your package. Track costs vs sale price and capture margin on every job." },
   { icon: BarChart3, title: "Reports and analytics", desc: "Revenue breakdowns, staff costs, profit margins, supplier spend, and customer insights. Eleven report tabs covering every angle of your business." },
   { icon: Mail, title: "Campaign emails", desc: "Send targeted bulk emails to your customer base. Filter by region, event type, or booking history. Built-in wizard with preview, scheduling, and tracking." },
   { icon: MessageSquare, title: "Customer surveys", desc: "Automated post-event feedback surveys sent to customers after each booking. Track responses and ratings to keep improving your service." },
@@ -125,6 +126,7 @@ export default function Home() {
             <a href="#pricing" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Pricing</a>
             <a href="#faq" className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">FAQ</a>
             <a href={LOGIN_URL} className="hidden md:block text-[13px] text-white/50 hover:text-white/80 transition-colors">Sign In</a>
+            <a href={REGISTER_URL} className="hidden md:block text-[13px] text-white/70 hover:text-white transition-colors font-medium">Sign Up</a>
             <a href={DEMO_URL} className="bg-[#e53e3e] hover:bg-[#c53030] text-white px-4 md:px-5 py-2 rounded-md font-semibold text-xs tracking-[1px] transition-colors">TRY DEMO</a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -142,7 +144,8 @@ export default function Home() {
               <a href="#showcase" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">Tour</a>
               <a href="#pricing" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">Pricing</a>
               <a href="#faq" onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">FAQ</a>
-              <a href={LOGIN_URL} onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3">Sign In</a>
+              <a href={LOGIN_URL} onClick={closeMenu} className="text-[15px] text-white/70 hover:text-white py-3 border-b border-white/[0.04]">Sign In</a>
+              <a href={REGISTER_URL} onClick={closeMenu} className="text-[15px] text-white/90 hover:text-white py-3 font-medium">Sign Up</a>
             </div>
           </div>
         )}
@@ -221,6 +224,15 @@ export default function Home() {
           <p className="text-white/40 text-[15px] leading-relaxed max-w-[500px] mx-auto">
             PitBoss HQ was created by casino party operators who spent years running events and managing dealers with duct-taped tools. Every feature exists because it was needed on real jobs — not dreamed up in a conference room.
           </p>
+        </div>
+        <div className="text-center mt-10 bg-[#0a0a0a] border border-[#e53e3e]/20 rounded-xl px-6 py-8">
+          <p className="text-[18px] font-bold mb-4 text-white/90">Ready to get started?</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="#pricing" className="inline-flex items-center justify-center gap-2 bg-[#e53e3e] hover:bg-[#c53030] text-white px-7 py-3 rounded-lg font-bold text-sm tracking-[1px] transition-colors">
+              PICK YOUR PLAN <ArrowRight className="w-4 h-4" />
+            </a>
+            <a href={DEMO_URL} className="bg-white/[0.06] border border-white/10 text-white/70 hover:text-white hover:border-white/20 px-7 py-3 rounded-lg font-medium text-sm transition-colors">Try the demo first</a>
+          </div>
         </div>
       </section>
 
@@ -377,15 +389,20 @@ export default function Home() {
       </section>
 
       <section className="max-w-[900px] mx-auto px-6 py-20 my-10 bg-[#e53e3e]/[0.03] border-y border-[#e53e3e]/10 text-center">
-        <h2 className="text-3xl md:text-[40px] font-black mb-4">See it for yourself</h2>
-        <p className="text-white/45 text-[16px] leading-relaxed mb-2">No sign-up forms. No sales calls. No credit card.</p>
+        <h2 className="text-3xl md:text-[40px] font-black mb-4">Ready to run things like a pit boss?</h2>
+        <p className="text-white/45 text-[16px] leading-relaxed mb-2">Try the full demo with no sign-up, or jump straight in and pick your plan.</p>
         <p className="text-white/45 text-[16px] leading-relaxed mb-8 max-w-[540px] mx-auto">
-          {"Click the button, enter your name and email address, and you're inside the full platform in 10 seconds — loaded with realistic demo data so you can see exactly how it works."}
+          Demo loads in 10 seconds with realistic data so you can explore every feature before you commit.
         </p>
-        <a href={DEMO_URL} className="inline-flex items-center gap-2 bg-[#e53e3e] hover:bg-[#c53030] text-white px-10 py-4 rounded-lg font-bold text-[16px] tracking-[1px] transition-colors">
-          TRY INSTANT DEMO — FREE <ArrowRight className="w-5 h-5" />
-        </a>
-        <p className="text-xs text-white/20 mt-4">Full access. Real features. Expires after 24 hours.</p>
+        <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-[600px] mx-auto">
+          <a href={DEMO_URL} className="inline-flex items-center justify-center gap-2 bg-[#e53e3e] hover:bg-[#c53030] text-white px-8 py-4 rounded-lg font-bold text-[15px] tracking-[1px] transition-colors">
+            TRY INSTANT DEMO <ArrowRight className="w-5 h-5" />
+          </a>
+          <a href={REGISTER_URL} className="inline-flex items-center justify-center gap-2 bg-white/[0.06] border border-white/15 text-white hover:bg-white/[0.1] hover:border-white/25 px-8 py-4 rounded-lg font-bold text-[15px] tracking-[1px] transition-colors">
+            SIGN UP NOW <ArrowRight className="w-5 h-5" />
+          </a>
+        </div>
+        <p className="text-xs text-white/20 mt-4">Demo expires after 24 hours. Sign up takes 2 minutes.</p>
       </section>
 
       <footer className="flex flex-col sm:flex-row items-center justify-between px-6 md:px-8 py-8 border-t border-white/[0.06] mt-10 gap-4">
